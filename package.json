@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon"
+    "start": "node index.js"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
