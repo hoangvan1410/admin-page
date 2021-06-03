@@ -18,7 +18,7 @@ const run = async () => {
 
   app.use(admin.options.rootPath, router);
 
-  app.listen(port, () => console.log(
+  app.listen(port,host, () => console.log(
     `Example app listening at http://localhost:${port}`,
   ));
 };
