@@ -8,7 +8,7 @@ const app = express();
 const port = 3000;
 
 const run = async () => {
-  await mongoose.connect('mongodb://localhost:27017/test', {
+  await mongoose.connect('mongodb+srv://admin:1234@cluster0.ewayb.mongodb.net/databases?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   });
